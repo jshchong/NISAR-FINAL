@@ -1,0 +1,147 @@
+{
+ "id": "java_indramayu",
+ "name": "Indramayu, West Java",
+ "country": "Indonesia",
+ "bounds": [
+  108.098565,
+  -6.501453,
+  108.351418,
+  -6.248599
+ ],
+ "png": "layers/java_indramayu.png",
+ "as_of": "2026-10-30",
+ "first_date": "2026-06-20",
+ "n_dates": 11,
+ "stats": {
+  "freshly_planted_ha": 4998,
+  "growing_ha": 27742,
+  "ready_for_harvest_ha": 5798
+ },
+ "legend": {
+  "red": "freshly planted",
+  "orange": "growing",
+  "green": "ready for harvest"
+ },
+ "frames": [
+  {
+   "date": "2026-06-20",
+   "cycle": 23,
+   "radar": "layers/frames/java_indramayu/2026-06-20_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-02",
+   "cycle": 24,
+   "radar": "layers/frames/java_indramayu/2026-07-02_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-14",
+   "cycle": 25,
+   "radar": "layers/frames/java_indramayu/2026-07-14_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-26",
+   "cycle": 26,
+   "radar": "layers/frames/java_indramayu/2026-07-26_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-08-19",
+   "cycle": 28,
+   "radar": "layers/frames/java_indramayu/2026-08-19_radar.jpg",
+   "stage": "layers/frames/java_indramayu/2026-08-19_stage.png",
+   "stats": {
+    "freshly_planted_ha": 12938,
+    "growing_ha": 4636,
+    "ready_for_harvest_ha": 0
+   }
+  },
+  {
+   "date": "2026-08-31",
+   "cycle": 29,
+   "radar": "layers/frames/java_indramayu/2026-08-31_radar.jpg",
+   "stage": "layers/frames/java_indramayu/2026-08-31_stage.png",
+   "stats": {
+    "freshly_planted_ha": 22786,
+    "growing_ha": 4266,
+    "ready_for_harvest_ha": 420
+   }
+  },
+  {
+   "date": "2026-09-12",
+   "cycle": 30,
+   "radar": "layers/frames/java_indramayu/2026-09-12_radar.jpg",
+   "stage": "layers/frames/java_indramayu/2026-09-12_stage.png",
+   "stats": {
+    "freshly_planted_ha": 17826,
+    "growing_ha": 12444,
+    "ready_for_harvest_ha": 533
+   }
+  },
+  {
+   "date": "2026-09-24",
+   "cycle": 31,
+   "radar": "layers/frames/java_indramayu/2026-09-24_radar.jpg",
+   "stage": "layers/frames/java_indramayu/2026-09-24_stage.png",
+   "stats": {
+    "freshly_planted_ha": 7963,
+    "growing_ha": 28495,
+    "ready_for_harvest_ha": 880
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "cycle": 32,
+   "radar": "layers/frames/java_indramayu/2026-10-06_radar.jpg",
+   "stage": "layers/frames/java_indramayu/2026-10-06_stage.png",
+   "stats": {
+    "freshly_planted_ha": 246,
+    "growing_ha": 29227,
+    "ready_for_harvest_ha": 2855
+   }
+  },
+  {
+   "date": "2026-10-18",
+   "cycle": 33,
+   "radar": "layers/frames/java_indramayu/2026-10-18_radar.jpg",
+   "stage": "layers/frames/java_indramayu/2026-10-18_stage.png",
+   "stats": {
+    "freshly_planted_ha": 316,
+    "growing_ha": 32453,
+    "ready_for_harvest_ha": 2805
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "cycle": 34,
+   "radar": "layers/frames/java_indramayu/2026-10-30_radar.jpg",
+   "stage": "layers/frames/java_indramayu/2026-10-30_stage.png",
+   "stats": {
+    "freshly_planted_ha": 4998,
+    "growing_ha": 27742,
+    "ready_for_harvest_ha": 5798
+   }
+  }
+ ],
+ "cycles": [
+  23,
+  24,
+  25,
+  26,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34
+ ],
+ "confidence": "partial",
+ "confidence_note": "Plausible mix; coastal fish ponds were filtered out but some may remain."
+}

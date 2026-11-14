@@ -1,0 +1,135 @@
+{
+ "id": "tonlesap_battambang",
+ "name": "Battambang, Tonle Sap plain",
+ "country": "Cambodia",
+ "bounds": [
+  102.777599,
+  12.947854,
+  103.032267,
+  13.202248
+ ],
+ "png": "layers/tonlesap_battambang.png",
+ "as_of": "2026-11-05",
+ "first_date": "2026-07-08",
+ "n_dates": 10,
+ "stats": {
+  "freshly_planted_ha": 0,
+  "growing_ha": 21074,
+  "ready_for_harvest_ha": 11606
+ },
+ "legend": {
+  "red": "freshly planted",
+  "orange": "growing",
+  "green": "ready for harvest"
+ },
+ "frames": [
+  {
+   "date": "2026-07-08",
+   "cycle": 25,
+   "radar": "layers/frames/tonlesap_battambang/2026-07-08_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-20",
+   "cycle": 26,
+   "radar": "layers/frames/tonlesap_battambang/2026-07-20_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-08-13",
+   "cycle": 28,
+   "radar": "layers/frames/tonlesap_battambang/2026-08-13_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-08-25",
+   "cycle": 29,
+   "radar": "layers/frames/tonlesap_battambang/2026-08-25_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-09-06",
+   "cycle": 30,
+   "radar": "layers/frames/tonlesap_battambang/2026-09-06_radar.jpg",
+   "stage": "layers/frames/tonlesap_battambang/2026-09-06_stage.png",
+   "stats": {
+    "freshly_planted_ha": 3342,
+    "growing_ha": 5219,
+    "ready_for_harvest_ha": 33
+   }
+  },
+  {
+   "date": "2026-09-18",
+   "cycle": 31,
+   "radar": "layers/frames/tonlesap_battambang/2026-09-18_radar.jpg",
+   "stage": "layers/frames/tonlesap_battambang/2026-09-18_stage.png",
+   "stats": {
+    "freshly_planted_ha": 2891,
+    "growing_ha": 20753,
+    "ready_for_harvest_ha": 807
+   }
+  },
+  {
+   "date": "2026-09-30",
+   "cycle": 32,
+   "radar": "layers/frames/tonlesap_battambang/2026-09-30_radar.jpg",
+   "stage": "layers/frames/tonlesap_battambang/2026-09-30_stage.png",
+   "stats": {
+    "freshly_planted_ha": 5214,
+    "growing_ha": 12416,
+    "ready_for_harvest_ha": 2174
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "cycle": 33,
+   "radar": "layers/frames/tonlesap_battambang/2026-10-12_radar.jpg",
+   "stage": "layers/frames/tonlesap_battambang/2026-10-12_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 16074,
+    "ready_for_harvest_ha": 3634
+   }
+  },
+  {
+   "date": "2026-10-24",
+   "cycle": 34,
+   "radar": "layers/frames/tonlesap_battambang/2026-10-24_radar.jpg",
+   "stage": "layers/frames/tonlesap_battambang/2026-10-24_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 14964,
+    "ready_for_harvest_ha": 10267
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "cycle": 35,
+   "radar": "layers/frames/tonlesap_battambang/2026-11-05_radar.jpg",
+   "stage": "layers/frames/tonlesap_battambang/2026-11-05_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 21074,
+    "ready_for_harvest_ha": 11606
+   }
+  }
+ ],
+ "cycles": [
+  25,
+  26,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35
+ ],
+ "confidence": "good",
+ "confidence_note": "Rain-fed crop growing toward harvest in November, as expected."
+}

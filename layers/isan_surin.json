@@ -1,0 +1,147 @@
+{
+ "id": "isan_surin",
+ "name": "Surin, Isan",
+ "country": "Thailand",
+ "bounds": [
+  103.397873,
+  14.798182,
+  103.651683,
+  15.051716
+ ],
+ "png": "layers/isan_surin.png",
+ "as_of": "2026-10-29",
+ "first_date": "2026-06-19",
+ "n_dates": 11,
+ "stats": {
+  "freshly_planted_ha": 0,
+  "growing_ha": 23714,
+  "ready_for_harvest_ha": 6597
+ },
+ "legend": {
+  "red": "freshly planted",
+  "orange": "growing",
+  "green": "ready for harvest"
+ },
+ "frames": [
+  {
+   "date": "2026-06-19",
+   "cycle": 23,
+   "radar": "layers/frames/isan_surin/2026-06-19_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-01",
+   "cycle": 24,
+   "radar": "layers/frames/isan_surin/2026-07-01_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-13",
+   "cycle": 25,
+   "radar": "layers/frames/isan_surin/2026-07-13_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-25",
+   "cycle": 26,
+   "radar": "layers/frames/isan_surin/2026-07-25_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-08-18",
+   "cycle": 28,
+   "radar": "layers/frames/isan_surin/2026-08-18_radar.jpg",
+   "stage": "layers/frames/isan_surin/2026-08-18_stage.png",
+   "stats": {
+    "freshly_planted_ha": 20,
+    "growing_ha": 11431,
+    "ready_for_harvest_ha": 197
+   }
+  },
+  {
+   "date": "2026-08-30",
+   "cycle": 29,
+   "radar": "layers/frames/isan_surin/2026-08-30_radar.jpg",
+   "stage": "layers/frames/isan_surin/2026-08-30_stage.png",
+   "stats": {
+    "freshly_planted_ha": 33,
+    "growing_ha": 8130,
+    "ready_for_harvest_ha": 1680
+   }
+  },
+  {
+   "date": "2026-09-11",
+   "cycle": 30,
+   "radar": "layers/frames/isan_surin/2026-09-11_radar.jpg",
+   "stage": "layers/frames/isan_surin/2026-09-11_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 8251,
+    "ready_for_harvest_ha": 1590
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "cycle": 31,
+   "radar": "layers/frames/isan_surin/2026-09-23_radar.jpg",
+   "stage": "layers/frames/isan_surin/2026-09-23_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 8449,
+    "ready_for_harvest_ha": 5790
+   }
+  },
+  {
+   "date": "2026-10-05",
+   "cycle": 32,
+   "radar": "layers/frames/isan_surin/2026-10-05_radar.jpg",
+   "stage": "layers/frames/isan_surin/2026-10-05_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 8829,
+    "ready_for_harvest_ha": 6772
+   }
+  },
+  {
+   "date": "2026-10-17",
+   "cycle": 33,
+   "radar": "layers/frames/isan_surin/2026-10-17_radar.jpg",
+   "stage": "layers/frames/isan_surin/2026-10-17_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 14317,
+    "ready_for_harvest_ha": 7016
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "cycle": 34,
+   "radar": "layers/frames/isan_surin/2026-10-29_radar.jpg",
+   "stage": "layers/frames/isan_surin/2026-10-29_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 23714,
+    "ready_for_harvest_ha": 6597
+   }
+  }
+ ],
+ "cycles": [
+  23,
+  24,
+  25,
+  26,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34
+ ],
+ "confidence": "good",
+ "confidence_note": "Rain-fed crop growing to ready in late October; matches the Isan calendar."
+}

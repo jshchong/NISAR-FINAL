@@ -1,0 +1,135 @@
+{
+ "id": "isan_ubon",
+ "name": "Ubon Ratchathani, Isan",
+ "country": "Thailand",
+ "bounds": [
+  104.699319,
+  15.049509,
+  104.950277,
+  15.300467
+ ],
+ "png": "layers/isan_ubon.png",
+ "as_of": "2026-10-22",
+ "first_date": "2026-06-24",
+ "n_dates": 10,
+ "stats": {
+  "freshly_planted_ha": 0,
+  "growing_ha": 9946,
+  "ready_for_harvest_ha": 1005
+ },
+ "legend": {
+  "red": "freshly planted",
+  "orange": "growing",
+  "green": "ready for harvest"
+ },
+ "frames": [
+  {
+   "date": "2026-06-24",
+   "cycle": 23,
+   "radar": "layers/frames/isan_ubon/2026-06-24_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-06",
+   "cycle": 24,
+   "radar": "layers/frames/isan_ubon/2026-07-06_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-07-18",
+   "cycle": 25,
+   "radar": "layers/frames/isan_ubon/2026-07-18_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-08-11",
+   "cycle": 27,
+   "radar": "layers/frames/isan_ubon/2026-08-11_radar.jpg",
+   "stage": null,
+   "stats": null
+  },
+  {
+   "date": "2026-08-23",
+   "cycle": 28,
+   "radar": "layers/frames/isan_ubon/2026-08-23_radar.jpg",
+   "stage": "layers/frames/isan_ubon/2026-08-23_stage.png",
+   "stats": {
+    "freshly_planted_ha": 76,
+    "growing_ha": 479,
+    "ready_for_harvest_ha": 30
+   }
+  },
+  {
+   "date": "2026-09-04",
+   "cycle": 29,
+   "radar": "layers/frames/isan_ubon/2026-09-04_radar.jpg",
+   "stage": "layers/frames/isan_ubon/2026-09-04_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 1042,
+    "ready_for_harvest_ha": 62
+   }
+  },
+  {
+   "date": "2026-09-16",
+   "cycle": 30,
+   "radar": "layers/frames/isan_ubon/2026-09-16_radar.jpg",
+   "stage": "layers/frames/isan_ubon/2026-09-16_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 1509,
+    "ready_for_harvest_ha": 170
+   }
+  },
+  {
+   "date": "2026-09-28",
+   "cycle": 31,
+   "radar": "layers/frames/isan_ubon/2026-09-28_radar.jpg",
+   "stage": "layers/frames/isan_ubon/2026-09-28_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 2940,
+    "ready_for_harvest_ha": 314
+   }
+  },
+  {
+   "date": "2026-10-10",
+   "cycle": 32,
+   "radar": "layers/frames/isan_ubon/2026-10-10_radar.jpg",
+   "stage": "layers/frames/isan_ubon/2026-10-10_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 8717,
+    "ready_for_harvest_ha": 535
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "cycle": 33,
+   "radar": "layers/frames/isan_ubon/2026-10-22_radar.jpg",
+   "stage": "layers/frames/isan_ubon/2026-10-22_stage.png",
+   "stats": {
+    "freshly_planted_ha": 0,
+    "growing_ha": 9946,
+    "ready_for_harvest_ha": 1005
+   }
+  }
+ ],
+ "cycles": [
+  23,
+  24,
+  25,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33
+ ],
+ "confidence": "partial",
+ "confidence_note": "Data ends 22 Oct, so the latest stage is a week older than other Isan hubs."
+}
