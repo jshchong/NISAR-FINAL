@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/luzon_nuevaecija/2026-06-23_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-05",
    "cycle": 24,
    "radar": "layers/frames/luzon_nuevaecija/2026-07-05_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-17",
    "cycle": 25,
    "radar": "layers/frames/luzon_nuevaecija/2026-07-17_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-10",
    "cycle": 27,
    "radar": "layers/frames/luzon_nuevaecija/2026-08-10_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-22",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/luzon_nuevaecija/2026-08-22_radar.jpg",
    "stage": "layers/frames/luzon_nuevaecija/2026-08-22_stage.png",
    "stats": {
-    "freshly_planted_ha": 29461,
-    "growing_ha": 2784,
-    "ready_for_harvest_ha": 139
+    "freshly_planted_ha": 29305,
+    "growing_ha": 804,
+    "ready_for_harvest_ha": 1
+   },
+   "timing": "layers/frames/luzon_nuevaecija/2026-08-22_timing.png",
+   "timing_stats": {
+    "on_time_ha": 32151,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 4259,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/luzon_nuevaecija/2026-09-03_radar.jpg",
    "stage": "layers/frames/luzon_nuevaecija/2026-09-03_stage.png",
    "stats": {
-    "freshly_planted_ha": 18452,
-    "growing_ha": 18688,
-    "ready_for_harvest_ha": 554
+    "freshly_planted_ha": 15887,
+    "growing_ha": 16880,
+    "ready_for_harvest_ha": 39
+   },
+   "timing": "layers/frames/luzon_nuevaecija/2026-09-03_timing.png",
+   "timing_stats": {
+    "on_time_ha": 37211,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 3332,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -79,9 +105,18 @@
    "radar": "layers/frames/luzon_nuevaecija/2026-09-15_radar.jpg",
    "stage": "layers/frames/luzon_nuevaecija/2026-09-15_stage.png",
    "stats": {
-    "freshly_planted_ha": 10324,
-    "growing_ha": 29223,
-    "ready_for_harvest_ha": 2366
+    "freshly_planted_ha": 7346,
+    "growing_ha": 30251,
+    "ready_for_harvest_ha": 520
+   },
+   "timing": "layers/frames/luzon_nuevaecija/2026-09-15_timing.png",
+   "timing_stats": {
+    "on_time_ha": 41852,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 1754
    }
   },
   {
@@ -90,9 +125,18 @@
    "radar": "layers/frames/luzon_nuevaecija/2026-09-27_radar.jpg",
    "stage": "layers/frames/luzon_nuevaecija/2026-09-27_stage.png",
    "stats": {
-    "freshly_planted_ha": 6507,
-    "growing_ha": 33887,
-    "ready_for_harvest_ha": 2261
+    "freshly_planted_ha": 4011,
+    "growing_ha": 35256,
+    "ready_for_harvest_ha": 508
+   },
+   "timing": "layers/frames/luzon_nuevaecija/2026-09-27_timing.png",
+   "timing_stats": {
+    "on_time_ha": 43819,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 1341
    }
   },
   {
@@ -101,9 +145,18 @@
    "radar": "layers/frames/luzon_nuevaecija/2026-10-09_radar.jpg",
    "stage": "layers/frames/luzon_nuevaecija/2026-10-09_stage.png",
    "stats": {
-    "freshly_planted_ha": 2388,
-    "growing_ha": 25131,
-    "ready_for_harvest_ha": 14875
+    "freshly_planted_ha": 679,
+    "growing_ha": 25698,
+    "ready_for_harvest_ha": 11978
+   },
+   "timing": "layers/frames/luzon_nuevaecija/2026-10-09_timing.png",
+   "timing_stats": {
+    "on_time_ha": 45121,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 892
    }
   },
   {
@@ -113,8 +166,17 @@
    "stage": "layers/frames/luzon_nuevaecija/2026-10-21_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 11462,
-    "ready_for_harvest_ha": 15870
+    "growing_ha": 9540,
+    "ready_for_harvest_ha": 12913
+   },
+   "timing": "layers/frames/luzon_nuevaecija/2026-10-21_timing.png",
+   "timing_stats": {
+    "on_time_ha": 46003,
+    "early_ha": 0,
+    "late_ha": 471,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 988
    }
   },
   {
@@ -123,9 +185,18 @@
    "radar": "layers/frames/luzon_nuevaecija/2026-11-02_radar.jpg",
    "stage": "layers/frames/luzon_nuevaecija/2026-11-02_stage.png",
    "stats": {
-    "freshly_planted_ha": 1112,
-    "growing_ha": 6167,
-    "ready_for_harvest_ha": 10547
+    "freshly_planted_ha": 343,
+    "growing_ha": 4353,
+    "ready_for_harvest_ha": 6232
+   },
+   "timing": "layers/frames/luzon_nuevaecija/2026-11-02_timing.png",
+   "timing_stats": {
+    "on_time_ha": 46823,
+    "early_ha": 0,
+    "late_ha": 693,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 1028
    }
   }
  ],
@@ -143,5 +214,22 @@
   34
  ],
  "confidence": "good",
- "confidence_note": "Wet-season crop mostly harvested or ready; small red patches are fields re-flooded for the dry season."
+ "confidence_note": "Wet-season crop mostly harvested or ready; small red patches are fields re-flooded for the dry season.",
+ "window": {
+  "season": "Wet season 2026 (main crop), UPRIIS-irrigated",
+  "start": "2026-04-01",
+  "end": "2026-08-31",
+  "source": "UPRIIS wet-season cropping window Apr-Aug (study on UPRIIS Div III, cited in search); FAO GIEWS Philippines (main-season planting Apr-Sep)",
+  "url": "https://cb.apps.fao.org/country.jsp?code=PHL",
+  "specific_2026": false,
+  "note": "Confidence LOW-MEDIUM. Month-only window. No NIA-UPRIIS 2026 wet-season advisory found. The typical Central Luzon wet-season transplanting peak is Jun-Jul, so a 2026-06-01 to 2026-07-31 core window is a reasonable sub-target. 2026 context: El Nino drought, Magat dipped below critical 15 Jul 2026 and Pantabangan cloud seeding was planned Aug-Dec. That likely delayed or staggered planting. The Talavera siphon repair affected the earlier 2025/26 dry season, not the wet season."
+ },
+ "timing_stats": {
+  "on_time_ha": 46823,
+  "early_ha": 0,
+  "late_ha": 693,
+  "before_data_ha": 163,
+  "not_yet_planted_ha": 0,
+  "no_planting_window_closed_ha": 1028
+ }
 }

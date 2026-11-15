@@ -28,28 +28,36 @@
    "cycle": 25,
    "radar": "layers/frames/tonlesap_battambang/2026-07-08_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-20",
    "cycle": 26,
    "radar": "layers/frames/tonlesap_battambang/2026-07-20_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-13",
    "cycle": 28,
    "radar": "layers/frames/tonlesap_battambang/2026-08-13_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-25",
    "cycle": 29,
    "radar": "layers/frames/tonlesap_battambang/2026-08-25_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-09-06",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/tonlesap_battambang/2026-09-06_radar.jpg",
    "stage": "layers/frames/tonlesap_battambang/2026-09-06_stage.png",
    "stats": {
-    "freshly_planted_ha": 3342,
-    "growing_ha": 5219,
-    "ready_for_harvest_ha": 33
+    "freshly_planted_ha": 2245,
+    "growing_ha": 2988,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/tonlesap_battambang/2026-09-06_timing.png",
+   "timing_stats": {
+    "on_time_ha": 8797,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 164,
+    "not_yet_planted_ha": 7078,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/tonlesap_battambang/2026-09-18_radar.jpg",
    "stage": "layers/frames/tonlesap_battambang/2026-09-18_stage.png",
    "stats": {
-    "freshly_planted_ha": 2891,
-    "growing_ha": 20753,
-    "ready_for_harvest_ha": 807
+    "freshly_planted_ha": 2372,
+    "growing_ha": 17570,
+    "ready_for_harvest_ha": 85
+   },
+   "timing": "layers/frames/tonlesap_battambang/2026-09-18_timing.png",
+   "timing_stats": {
+    "on_time_ha": 21735,
+    "early_ha": 0,
+    "late_ha": 2455,
+    "before_data_ha": 164,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 4815
    }
   },
   {
@@ -79,9 +105,18 @@
    "radar": "layers/frames/tonlesap_battambang/2026-09-30_radar.jpg",
    "stage": "layers/frames/tonlesap_battambang/2026-09-30_stage.png",
    "stats": {
-    "freshly_planted_ha": 5214,
-    "growing_ha": 12416,
-    "ready_for_harvest_ha": 2174
+    "freshly_planted_ha": 3406,
+    "growing_ha": 9325,
+    "ready_for_harvest_ha": 692
+   },
+   "timing": "layers/frames/tonlesap_battambang/2026-09-30_timing.png",
+   "timing_stats": {
+    "on_time_ha": 16616,
+    "early_ha": 0,
+    "late_ha": 3749,
+    "before_data_ha": 164,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 5620
    }
   },
   {
@@ -91,8 +126,17 @@
    "stage": "layers/frames/tonlesap_battambang/2026-10-12_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 16074,
-    "ready_for_harvest_ha": 3634
+    "growing_ha": 12140,
+    "ready_for_harvest_ha": 1374
+   },
+   "timing": "layers/frames/tonlesap_battambang/2026-10-12_timing.png",
+   "timing_stats": {
+    "on_time_ha": 21876,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 164,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 8909
    }
   },
   {
@@ -102,8 +146,17 @@
    "stage": "layers/frames/tonlesap_battambang/2026-10-24_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 14964,
-    "ready_for_harvest_ha": 10267
+    "growing_ha": 11681,
+    "ready_for_harvest_ha": 6843
+   },
+   "timing": "layers/frames/tonlesap_battambang/2026-10-24_timing.png",
+   "timing_stats": {
+    "on_time_ha": 27981,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 164,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 8250
    }
   },
   {
@@ -113,8 +166,17 @@
    "stage": "layers/frames/tonlesap_battambang/2026-11-05_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 21074,
-    "ready_for_harvest_ha": 11606
+    "growing_ha": 21085,
+    "ready_for_harvest_ha": 7678
+   },
+   "timing": "layers/frames/tonlesap_battambang/2026-11-05_timing.png",
+   "timing_stats": {
+    "on_time_ha": 36545,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 164,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 6514
    }
   }
  ],
@@ -131,5 +193,22 @@
   35
  ],
  "confidence": "good",
- "confidence_note": "Rain-fed crop growing toward harvest in November, as expected."
+ "confidence_note": "Rain-fed crop growing toward harvest in November, as expected.",
+ "window": {
+  "season": "Wet-season (main) rice 2026",
+  "start": "2026-05-01",
+  "end": "2026-08-31",
+  "source": "FAO GIEWS Country Brief Cambodia (main wet-season planting finalised by end-Aug); 2026 drought reports (NCDM via The Star/Cambodianess)",
+  "url": "https://reliefweb.int/report/cambodia/giews-country-brief-cambodia-2-february-2026",
+  "specific_2026": false,
+  "note": "Confidence LOW-MEDIUM. Month-only standard window. No MAFF/PDAFF Battambang 2026 schedule found. 2026 had El Nino drought: 18,362 ha affected by 1 Jul and 62,554 ha by 20 Jul in Battambang, and drought persisted into Sep, with replanting reported. Expect delayed or second planting into Sep 2026. See https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/03/18000-hectares-of-battambang-rice-fields-hit-by-water-shortages-during-rainy-season. Bavel has partial irrigation and may also have an early wet or dry-season crop."
+ },
+ "timing_stats": {
+  "on_time_ha": 36545,
+  "early_ha": 0,
+  "late_ha": 0,
+  "before_data_ha": 164,
+  "not_yet_planted_ha": 0,
+  "no_planting_window_closed_ha": 6514
+ }
 }

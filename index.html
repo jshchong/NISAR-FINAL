@@ -25,9 +25,15 @@
   --accent-text: #ffffff;
   --focus: #0b5cad;
   --shadow: 0 8px 28px rgba(10, 20, 35, 0.22);
-  --stage-planted: #d73027;
-  --stage-growing: #f59e0b;
-  --stage-ready: #1a9850;
+  --stage-planted: #2f6bd6;
+  --stage-growing: #f2c230;
+  --stage-ready: #25a05f;
+  --tm-ontime: rgba(230, 233, 236, 0.45);
+  --tm-early: #8f7ae0;
+  --tm-late: #d7301f;
+  --tm-before: transparent;
+  --tm-notyet: repeating-linear-gradient(135deg, #e6e9ec 0 2px, transparent 2px 6px);
+  --tm-closed: repeating-linear-gradient(135deg, #d7301f 0 2px, transparent 2px 6px);
   --outline: #00e5ff;
   --chip-partial: #a8670b;
   --radius: 12px;
@@ -162,12 +168,25 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
 .chip { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: 11px; font-weight: 600; border: 1px solid currentColor; vertical-align: 1px; }
 .chip.good { color: var(--stage-ready); }
 .chip.partial { color: var(--chip-partial); }
-.chip.doubtful { color: var(--stage-planted); }
+.chip.doubtful { color: var(--tm-late); }
 .conf-note { margin-top: 6px; font-size: 12px; color: var(--text-2); }
 
 .sw.water { background: #000; }
 .sw.dbl { background: #e04bd0; }
 .sw.veg { background: linear-gradient(135deg, #2f9e44 0 50%, #f2f2f2 50% 100%); }
+.sw.tm1, .dot.tm1 { background: linear-gradient(var(--tm-ontime), var(--tm-ontime)), #22302a; }
+.sw.tm2, .dot.tm2 { background: var(--tm-early); }
+.sw.tm3, .dot.tm3 { background: var(--tm-late); }
+.sw.tm4, .dot.tm4 { background: var(--tm-before); border-style: dashed; }
+.sw.tm5, .dot.tm5 { background: var(--tm-notyet), #22302a; }
+.sw.tm6, .dot.tm6 { background: var(--tm-closed), #22302a; }
+.window { margin-top: 8px; font-size: 12px; color: var(--text-2); }
+.window b { color: var(--text); font-weight: 600; }
+.window a { color: var(--accent); }
+.tag { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 4px; font-size: 11px; font-weight: 600; background: var(--surface); border: 1px solid var(--border); color: var(--text-2); white-space: nowrap; }
+.trows { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; margin-top: 8px; font-size: 12px; color: var(--text-2); }
+.trows b { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; }
+.chip-lbl { font-size: 11px; color: var(--text-2); margin-left: 6px; }
 .frame-note { margin-top: 6px; font-size: 12px; color: var(--text-2); }
 .frame-note b { color: var(--text); font-weight: 600; }
 
@@ -210,6 +229,11 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
 }
 #info[hidden] { display: none; }
+#info { max-height: calc(100% - 150px); overflow-y: auto; overscroll-behavior: contain; overflow-wrap: anywhere; }
+#info .full { grid-column: 1 / -1; }
+#info dt.full { margin-top: 4px; }
+.wnote { margin-top: 6px; font-size: 12px; color: var(--text-2); }
+.wnote summary { cursor: pointer; color: var(--accent); }
 #info .region-top .nm { font-size: 15px; }
 #info dl { margin: 8px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; font-size: 13px; }
 #info dt { color: var(--text-2); }
@@ -251,6 +275,7 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
   #info { top: 60px; left: 16px; right: 16px; width: auto; }
   #timeline { left: 16px; right: 16px; max-width: none; bottom: 110px; }
   #info .ts { display: none; }
+  #info { max-height: calc(100% - 330px); }
 }
 </style>
 </head>
@@ -261,6 +286,7 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
   <div class="tl-top">
     <div class="seg" role="group" aria-label="Overlay mode">
       <button type="button" data-mode="stage" aria-pressed="true">Growth stage</button>
+      <button type="button" data-mode="timing" aria-pressed="false">Planting timing</button>
       <button type="button" data-mode="radar" aria-pressed="false">Radar</button>
     </div>
     <div id="tl-label" aria-live="polite"></div>
@@ -301,14 +327,23 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
       <label class="switch"><input type="checkbox" id="chk-outlines" checked> Region outlines &amp; labels</label>
       <div class="slider-row">
         <label for="opacity">Opacity</label>
-        <input type="range" id="opacity" min="0" max="100" step="5" value="85">
-        <output id="opacity-out" for="opacity">85%</output>
+        <input type="range" id="opacity" min="0" max="100" step="5" value="100">
+        <output id="opacity-out" for="opacity">100%</output>
       </div>
       <ul class="legend" id="legend-stage" aria-label="Growth stage legend">
-        <li><span class="sw planted" aria-hidden="true"></span>Freshly planted</li>
+        <li><span class="sw planted" aria-hidden="true"></span>Flooded / freshly planted</li>
         <li><span class="sw growing" aria-hidden="true"></span>Growing</li>
         <li><span class="sw ready" aria-hidden="true"></span>Ready for harvest</li>
         <li><span class="sw none" aria-hidden="true"></span><span class="note">Transparent: not rice, harvested or fallow</span></li>
+      </ul>
+      <ul class="legend" id="legend-timing" aria-label="Planting timing legend" hidden>
+        <li><span class="sw tm1" aria-hidden="true"></span>Planted on time</li>
+        <li><span class="sw tm2" aria-hidden="true"></span>Planted early</li>
+        <li><span class="sw tm3" aria-hidden="true"></span>Planted late</li>
+        <li><span class="sw tm4" aria-hidden="true"></span>Planted before the first image</li>
+        <li><span class="sw tm5" aria-hidden="true"></span>Not yet planted (window still open)</li>
+        <li><span class="sw tm6" aria-hidden="true"></span>No planting detected (window closed)</li>
+        <li><span class="note">Compared with the region's recommended planting window (official crop calendar). Planting date estimated from radar: green-up date minus the region's radar delay; ±12 days.</span></li>
       </ul>
       <ul class="legend" id="legend-radar" aria-label="Radar legend" hidden>
         <li><span class="sw water" aria-hidden="true"></span>Black: open water</li>
@@ -329,7 +364,8 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
       <div class="howto">
         <p>Each coloured pixel is a rice field whose growth stage was estimated from the NISAR L-band radar time series (HH and HV backscatter). Young, flooded paddies look dark to radar; backscatter rises as the canopy grows and levels off near maturity.</p>
         <p>Use the timeline at the bottom to step through NISAR's 12-day repeat cycles, or press play. Switch to <b>Radar</b> to see the raw false-colour backscatter behind the stage map. A region with no pass in a cycle shows its previous image, dimmed. NISAR had an outage from 27 Jul to 10 Aug 2026, so cycles 26 and 27 are incomplete.</p>
-        <p>Each region has a confidence badge: whether its stage mix matches the local crop calendar. Doubtful regions need field checking before use.</p>
+        <p><b>Planting timing</b> compares each field's estimated planting date with the region's recommended planting window: blue on time, teal early, magenta late, grey planted before our first image, pale yellow not yet planted while the window is still open, dark purple no planting detected after the window closed. The Java and MADA (Kedah) windows are still open, so many of their fields show as not yet planted. Windows for 11 of 14 regions are typical calendars; only MADA, An Giang and Thai Binh use published 2026 schedules.</p>
+        <p><b>Calendar check</b> = whether this region's mix of growth stages fits its local crop calendar on that date. It is a manual plausibility check by the team, not a measured accuracy; no field validation yet.</p>
         <p>These are first estimates and have not been field-validated. Click inside an outlined region for its details.</p>
       </div>
     </section>
@@ -496,7 +532,7 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
 
   // ---------- layer 2: NISAR overlays ----------
   var regions = [], outlineEntities = [];
-  var opacity = 0.85, nisarOn = true;
+  var opacity = 1, nisarOn = true;
 
   function fmtHa(n) { return typeof n === "number" ? Math.round(n).toLocaleString("en-US") + " ha" : "—"; }
   function fmtDate(s) {
@@ -506,8 +542,32 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
     return d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
   }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
-  var CONF = { good: "Matches calendar", partial: "Partly matches", doubtful: "Doubtful" };
-  function confChip(r) { return CONF[r.confidence] ? '<span class="chip ' + r.confidence + '">' + CONF[r.confidence] + "</span>" : ""; }
+  var CONF = { good: "Consistent", partial: "Partly consistent", doubtful: "Inconsistent" };
+  var CONF_HELP = "Calendar check = whether this region's mix of growth stages fits its local crop calendar on that date. It is a manual plausibility check by the team, not a measured accuracy; no field validation yet.";
+  function confChip(r, bare) {
+    if (!CONF[r.confidence]) return "";
+    return (bare ? "" : '<span class="chip-lbl">Calendar check:</span>') +
+      '<span class="chip ' + r.confidence + '" title="' + esc(CONF_HELP) + '">' + CONF[r.confidence] + "</span>";
+  }
+  // Recommended planting window + timing stats (Planting timing mode).
+  function shortDay(s) { var d = new Date(s + "T00:00:00Z"); return isNaN(d) ? String(s) : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }); }
+  function windowHtml(r) {
+    var w = r.window; if (!w || !w.start || !w.end) return "";
+    var src = String(w.source || "Source").split(" (")[0];
+    if (src.length > 60) src = src.slice(0, 57) + "…";
+    var link = /^https?:\/\//.test(w.url || "") ? '<a href="' + esc(w.url) + '" target="_blank" rel="noopener noreferrer">' + esc(src) + "</a>" : esc(src);
+    return '<div class="window">Recommended planting: <b>' + esc(shortDay(w.start)) + " – " + esc(fmtDate(w.end)) + "</b>" +
+      (w.season ? " · " + esc(w.season) : "") +
+      '<span class="tag">' + (w.specific_2026 ? "2026 schedule" : "typical calendar") + "</span><br>Source: " + link + "</div>";
+  }
+  function timingRows(t) {
+    if (!t) return '<div class="trows"><span>Timing</span><b>—</b></div>';
+    var rows = [["tm1", "On time", t.on_time_ha, true], ["tm2", "Early", t.early_ha], ["tm3", "Late", t.late_ha],
+      ["tm4", "Before first image", t.before_data_ha], ["tm5", "Not yet planted", t.not_yet_planted_ha], ["tm6", "No planting, window closed", t.no_planting_window_closed_ha]];
+    return '<div class="trows">' + rows.filter(function (x) { return x[3] || x[2]; }).map(function (x) {
+      return '<span><span class="dot ' + x[0] + '"></span>' + x[1] + "</span><b>" + fmtHa(x[2]) + "</b>";
+    }).join("") + "</div>";
+  }
   function confNote(r) { return r.confidence_note ? '<div class="conf-note">' + esc(r.confidence_note) + "</div>" : ""; }
   function validRegion(r) {
     return r && r.id && Array.isArray(r.bounds) && r.bounds.length === 4 && r.bounds.every(function (v) { return typeof v === "number" && isFinite(v); });
@@ -605,11 +665,12 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
           '<div class="region-top"><div class="nm">' + esc(r.name || r.id) +
           "<small>" + (v.before ? "" : v.legacy ? "As of " : "Image ") + esc(frameLine(r, v)) + confChip(r) + "</small></div>" +
           '<button class="btn" type="button" data-fly="' + esc(r.id) + '" aria-label="Fly to ' + esc(r.name || r.id) + '">Fly to</button></div>' +
+          (tl.mode === "timing" ? timingRows(v.f ? v.f.timing_stats : (v.legacy ? r.timing_stats : null)) + windowHtml(r) :
           '<div class="stats">' +
           '<div class="stat"><span class="dot planted"></span>Planted<b>' + fmtHa(s.freshly_planted_ha) + "</b></div>" +
           '<div class="stat"><span class="dot growing"></span>Growing<b>' + fmtHa(s.growing_ha) + "</b></div>" +
           '<div class="stat"><span class="dot ready"></span>Ready<b>' + fmtHa(s.ready_for_harvest_ha) + "</b></div>" +
-          "</div>" + (v.noStage ? '<div class="frame-note">Stage not yet available (too few images).</div>' : "") + confNote(r) + "</div>";
+          "</div>") + (v.missing ? '<div class="frame-note">' + esc(v.missing.charAt(0).toUpperCase() + v.missing.slice(1)) + ".</div>" : "") + confNote(r) + "</div>";
       });
     });
     box.innerHTML = html;
@@ -675,6 +736,7 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
     return da.getUTCDate() + " " + mon(da) + " – " + db.getUTCDate() + " " + mon(db) + " " + db.getUTCFullYear();
   }
   // Frame shown for region r at cycle c: its own pass, else the nearest earlier one (dimmed).
+  function modeUrl(f) { return (tl.mode === "radar" ? f.radar : tl.mode === "timing" ? f.timing : f.stage) || null; }
   function frameFor(r, c) {
     var best = null;
     (r.frames || []).forEach(function (f) {
@@ -686,8 +748,9 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
     if (!r.frames || !r.frames.length || tl.cycle === null) return { url: r.png, alpha: 1, f: null, exact: true, legacy: true };
     var ff = frameFor(r, tl.cycle);
     if (!ff) return { url: null, alpha: 1, f: null, exact: false, before: true };
-    var url = tl.mode === "radar" ? ff.f.radar : ff.f.stage;
-    return { url: url || null, alpha: ff.exact ? 1 : 0.5, f: ff.f, exact: ff.exact, noStage: tl.mode === "stage" && !ff.f.stage };
+    var url = modeUrl(ff.f);
+    var missing = url ? "" : tl.mode === "timing" ? "timing not yet available (too few images)" : tl.mode === "stage" ? "stage not yet available (too few images)" : "no radar image";
+    return { url: url || null, alpha: ff.exact ? 1 : 0.5, f: ff.f, exact: ff.exact, missing: missing };
   }
   function statsOf(r, v) { return v.legacy ? (r.stats || {}) : ((v.f && v.f.stats) || {}); }
   function firstDate(r) { return (r.frames || []).reduce(function (m, f) { return !m || f.date < m ? f.date : m; }, null); }
@@ -702,7 +765,7 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
     if (v.before) return { title: nm, note: "no image yet" };
     var notes = [];
     if (!v.exact) notes.push("no pass this cycle");
-    if (v.noStage) notes.push("stage not yet available (too few images)");
+    if (v.missing) notes.push(v.missing);
     return { title: nm + " · " + shortDate(v.f.date), note: notes.join(" · ") };
   }
   function initTimeline() {
@@ -742,12 +805,13 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
     $("tl-latest").disabled = c === tl.latest;
     document.querySelectorAll("#timeline .seg button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-mode") === tl.mode)); });
     $("legend-stage").hidden = tl.mode !== "stage";
+    $("legend-timing").hidden = tl.mode !== "timing";
     $("legend-radar").hidden = tl.mode !== "radar";
   }
   function preloadCycle(c) {
     regions.forEach(function (r) {
       var ff = frameFor(r, c);
-      if (ff) preloadUrl(tl.mode === "radar" ? ff.f.radar : ff.f.stage);
+      if (ff) preloadUrl(modeUrl(ff.f));
     });
   }
   function setCycle(c) {
@@ -761,7 +825,7 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
     preloadCycle(tl.cycle >= hi ? lo : tl.cycle + 1);
   }
   function setMode(m) {
-    if (m !== "stage" && m !== "radar") return;
+    if (m !== "stage" && m !== "radar" && m !== "timing") return;
     tl.mode = m;
     setCycle(tl.cycle);
   }
@@ -799,13 +863,16 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: 
     var total = s.freshly_planted_ha == null ? null : (s.freshly_planted_ha || 0) + (s.growing_ha || 0) + (s.ready_for_harvest_ha || 0);
     $("info-title").innerHTML = esc(r.name || r.id) + "<small>" + esc(r.country || "") + "</small>";
     $("info-dl").innerHTML =
-      "<dt>Image</dt><dd>" + esc(frameLine(r, v)) + (v.noStage ? "<br>Stage not yet available (too few images)" : "") + "</dd>" +
+      "<dt>Image</dt><dd>" + esc(frameLine(r, v)) + (v.missing ? "<br>" + esc(v.missing.charAt(0).toUpperCase() + v.missing.slice(1)) : "") + "</dd>" +
       '<dt class="ts">Time series</dt><dd class="ts">' + esc(fmtDate(r.first_date)) + " → " + esc(fmtDate(r.as_of)) + (r.n_dates ? " (" + esc(r.n_dates) + " passes)" : "") + "</dd>" +
-      '<dt><span class="dot planted"></span>Freshly planted</dt><dd>' + fmtHa(s.freshly_planted_ha) + "</dd>" +
-      '<dt><span class="dot growing"></span>Growing</dt><dd>' + fmtHa(s.growing_ha) + "</dd>" +
-      '<dt><span class="dot ready"></span>Ready for harvest</dt><dd>' + fmtHa(s.ready_for_harvest_ha) + "</dd>" +
-      "<dt>Rice mapped</dt><dd>" + fmtHa(total) + "</dd>" +
-      (CONF[r.confidence] ? "<dt>Confidence</dt><dd>" + confChip(r) + confNote(r) + "</dd>" : "");
+      (tl.mode === "timing"
+        ? '<dt class="full">Planting timing</dt><dd class="full">' + timingRows(v.f ? v.f.timing_stats : (v.legacy ? r.timing_stats : null)) + windowHtml(r) +
+          (r.window && r.window.note ? '<details class="wnote"><summary>Calendar source notes</summary>' + esc(r.window.note) + "</details>" : "") + "</dd>"
+        : '<dt><span class="dot planted"></span>Flooded / freshly planted</dt><dd>' + fmtHa(s.freshly_planted_ha) + "</dd>" +
+          '<dt><span class="dot growing"></span>Growing</dt><dd>' + fmtHa(s.growing_ha) + "</dd>" +
+          '<dt><span class="dot ready"></span>Ready for harvest</dt><dd>' + fmtHa(s.ready_for_harvest_ha) + "</dd>" +
+          "<dt>Rice mapped</dt><dd>" + fmtHa(total) + "</dd>") +
+      (CONF[r.confidence] ? '<dt title="' + esc(CONF_HELP) + '">Calendar check</dt><dd>' + confChip(r, true) + confNote(r) + "</dd>" : "");
     infoEl.hidden = false;
   }
   function hideInfo() { infoEl.hidden = true; infoRegion = null; }

@@ -28,28 +28,36 @@
    "cycle": 24,
    "radar": "layers/frames/java_karawang/2026-06-27_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-09",
    "cycle": 25,
    "radar": "layers/frames/java_karawang/2026-07-09_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-21",
    "cycle": 26,
    "radar": "layers/frames/java_karawang/2026-07-21_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-14",
    "cycle": 28,
    "radar": "layers/frames/java_karawang/2026-08-14_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-26",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/java_karawang/2026-08-26_radar.jpg",
    "stage": "layers/frames/java_karawang/2026-08-26_stage.png",
    "stats": {
-    "freshly_planted_ha": 14845,
-    "growing_ha": 878,
+    "freshly_planted_ha": 12118,
+    "growing_ha": 256,
     "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/java_karawang/2026-08-26_timing.png",
+   "timing_stats": {
+    "on_time_ha": 0,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 23400,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/java_karawang/2026-09-07_radar.jpg",
    "stage": "layers/frames/java_karawang/2026-09-07_stage.png",
    "stats": {
-    "freshly_planted_ha": 4128,
-    "growing_ha": 3193,
-    "ready_for_harvest_ha": 279
+    "freshly_planted_ha": 2931,
+    "growing_ha": 2256,
+    "ready_for_harvest_ha": 1
+   },
+   "timing": "layers/frames/java_karawang/2026-09-07_timing.png",
+   "timing_stats": {
+    "on_time_ha": 0,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 29002,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -79,9 +105,18 @@
    "radar": "layers/frames/java_karawang/2026-09-19_radar.jpg",
    "stage": "layers/frames/java_karawang/2026-09-19_stage.png",
    "stats": {
-    "freshly_planted_ha": 5992,
-    "growing_ha": 5692,
-    "ready_for_harvest_ha": 670
+    "freshly_planted_ha": 4095,
+    "growing_ha": 4544,
+    "ready_for_harvest_ha": 8
+   },
+   "timing": "layers/frames/java_karawang/2026-09-19_timing.png",
+   "timing_stats": {
+    "on_time_ha": 0,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 34031,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -90,9 +125,18 @@
    "radar": "layers/frames/java_karawang/2026-10-01_radar.jpg",
    "stage": "layers/frames/java_karawang/2026-10-01_stage.png",
    "stats": {
-    "freshly_planted_ha": 10952,
-    "growing_ha": 9561,
-    "ready_for_harvest_ha": 1410
+    "freshly_planted_ha": 9050,
+    "growing_ha": 7688,
+    "ready_for_harvest_ha": 148
+   },
+   "timing": "layers/frames/java_karawang/2026-10-01_timing.png",
+   "timing_stats": {
+    "on_time_ha": 8680,
+    "early_ha": 3003,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 26137,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -101,9 +145,18 @@
    "radar": "layers/frames/java_karawang/2026-10-13_radar.jpg",
    "stage": "layers/frames/java_karawang/2026-10-13_stage.png",
    "stats": {
-    "freshly_planted_ha": 5718,
-    "growing_ha": 20425,
-    "ready_for_harvest_ha": 1675
+    "freshly_planted_ha": 5076,
+    "growing_ha": 18970,
+    "ready_for_harvest_ha": 155
+   },
+   "timing": "layers/frames/java_karawang/2026-10-13_timing.png",
+   "timing_stats": {
+    "on_time_ha": 13734,
+    "early_ha": 3632,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 23847,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -112,9 +165,18 @@
    "radar": "layers/frames/java_karawang/2026-10-25_radar.jpg",
    "stage": "layers/frames/java_karawang/2026-10-25_stage.png",
    "stats": {
-    "freshly_planted_ha": 10993,
-    "growing_ha": 15817,
-    "ready_for_harvest_ha": 2991
+    "freshly_planted_ha": 9242,
+    "growing_ha": 14684,
+    "ready_for_harvest_ha": 960
+   },
+   "timing": "layers/frames/java_karawang/2026-10-25_timing.png",
+   "timing_stats": {
+    "on_time_ha": 17207,
+    "early_ha": 3557,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 22489,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -123,9 +185,18 @@
    "radar": "layers/frames/java_karawang/2026-11-06_radar.jpg",
    "stage": "layers/frames/java_karawang/2026-11-06_stage.png",
    "stats": {
-    "freshly_planted_ha": 18647,
-    "growing_ha": 13362,
-    "ready_for_harvest_ha": 2473
+    "freshly_planted_ha": 17124,
+    "growing_ha": 12344,
+    "ready_for_harvest_ha": 1460
+   },
+   "timing": "layers/frames/java_karawang/2026-11-06_timing.png",
+   "timing_stats": {
+    "on_time_ha": 24651,
+    "early_ha": 3609,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 16869,
+    "no_planting_window_closed_ha": 0
    }
   }
  ],
@@ -143,5 +214,22 @@
   35
  ],
  "confidence": "good",
- "confidence_note": "Dry-season crop harvested; new main-season plantings appearing in the last passes."
+ "confidence_note": "Dry-season crop harvested; new main-season plantings appearing in the last passes.",
+ "window": {
+  "season": "MT I / musim rendeng 2026/27 (wet-season main crop, Oct 2026-Mar 2027 national planting season)",
+  "start": "2026-10-01",
+  "end": "2026-12-31",
+  "source": "Kementan / national 'Oct-Mar' planting-season framing (news: CORE Indonesia via BCA Sekuritas; Pupuk Kaltim Oct 2026-Mar 2027 season); Karawang MT III Aug-Sep 2026 from PT Pupuk Kujang (Antara)",
+  "url": "https://bcasekuritas.co.id/latest-news/news/ekonom-masa-tanam-akhir-2026-jadi-kunci-jaga-pasokan-pangan-awal-2027",
+  "specific_2026": false,
+  "note": "Confidence LOW-MEDIUM. Month-only window (1 Oct-31 Dec). No KATAM Terpadu or Dinas Pertanian Karawang 2026/27 golongan schedule found. Only the earliest golongan of MT I falls inside a mid-Jun to early-Nov data window. For Jun-Nov 2026 data the better-fitting event may be the 2026 MT III (third crop) planting, reported Aug-Sep 2026 (PT Pupuk Kujang, 21 Aug 2026: https://megapolitan.antaranews.com/berita/526365/pupuk-kujang-pastikan-stok-pupuk-bersubsidi-di-jabar-saat-musim-tanam-gadu-aman). The late MT II/gadu crop also fits (Kementan pushed planting acceleration Jun-Sep 2026 in 10 provinces including Jawa Barat). 2026 had an El Nino dry season (Apr-Oct) and the BMKG-predicted wet-season onset was delayed."
+ },
+ "timing_stats": {
+  "on_time_ha": 24651,
+  "early_ha": 3609,
+  "late_ha": 0,
+  "before_data_ha": 84,
+  "not_yet_planted_ha": 16869,
+  "no_planting_window_closed_ha": 0
+ }
 }

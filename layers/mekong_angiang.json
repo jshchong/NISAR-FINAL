@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/mekong_angiang/2026-06-19_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-01",
    "cycle": 24,
    "radar": "layers/frames/mekong_angiang/2026-07-01_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-13",
    "cycle": 25,
    "radar": "layers/frames/mekong_angiang/2026-07-13_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-25",
    "cycle": 26,
    "radar": "layers/frames/mekong_angiang/2026-07-25_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-18",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/mekong_angiang/2026-08-18_radar.jpg",
    "stage": "layers/frames/mekong_angiang/2026-08-18_stage.png",
    "stats": {
-    "freshly_planted_ha": 3293,
-    "growing_ha": 3638,
-    "ready_for_harvest_ha": 15
+    "freshly_planted_ha": 1102,
+    "growing_ha": 2593,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/mekong_angiang/2026-08-18_timing.png",
+   "timing_stats": {
+    "on_time_ha": 5884,
+    "early_ha": 1615,
+    "late_ha": 0,
+    "before_data_ha": 82,
+    "not_yet_planted_ha": 1614,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/mekong_angiang/2026-08-30_radar.jpg",
    "stage": "layers/frames/mekong_angiang/2026-08-30_stage.png",
    "stats": {
-    "freshly_planted_ha": 16462,
-    "growing_ha": 1243,
-    "ready_for_harvest_ha": 86
+    "freshly_planted_ha": 13574,
+    "growing_ha": 696,
+    "ready_for_harvest_ha": 1
+   },
+   "timing": "layers/frames/mekong_angiang/2026-08-30_timing.png",
+   "timing_stats": {
+    "on_time_ha": 15033,
+    "early_ha": 4339,
+    "late_ha": 0,
+    "before_data_ha": 82,
+    "not_yet_planted_ha": 5284,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -79,9 +105,18 @@
    "radar": "layers/frames/mekong_angiang/2026-09-11_radar.jpg",
    "stage": "layers/frames/mekong_angiang/2026-09-11_stage.png",
    "stats": {
-    "freshly_planted_ha": 19367,
-    "growing_ha": 1463,
-    "ready_for_harvest_ha": 952
+    "freshly_planted_ha": 16740,
+    "growing_ha": 331,
+    "ready_for_harvest_ha": 20
+   },
+   "timing": "layers/frames/mekong_angiang/2026-09-11_timing.png",
+   "timing_stats": {
+    "on_time_ha": 17515,
+    "early_ha": 5075,
+    "late_ha": 0,
+    "before_data_ha": 82,
+    "not_yet_planted_ha": 9804,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -90,9 +125,18 @@
    "radar": "layers/frames/mekong_angiang/2026-09-23_radar.jpg",
    "stage": "layers/frames/mekong_angiang/2026-09-23_stage.png",
    "stats": {
-    "freshly_planted_ha": 13581,
-    "growing_ha": 3454,
-    "ready_for_harvest_ha": 3605
+    "freshly_planted_ha": 9803,
+    "growing_ha": 767,
+    "ready_for_harvest_ha": 457
+   },
+   "timing": "layers/frames/mekong_angiang/2026-09-23_timing.png",
+   "timing_stats": {
+    "on_time_ha": 6774,
+    "early_ha": 5348,
+    "late_ha": 6390,
+    "before_data_ha": 82,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 15541
    }
   },
   {
@@ -101,9 +145,18 @@
    "radar": "layers/frames/mekong_angiang/2026-10-05_radar.jpg",
    "stage": "layers/frames/mekong_angiang/2026-10-05_stage.png",
    "stats": {
-    "freshly_planted_ha": 16318,
-    "growing_ha": 3511,
-    "ready_for_harvest_ha": 4366
+    "freshly_planted_ha": 17754,
+    "growing_ha": 695,
+    "ready_for_harvest_ha": 679
+   },
+   "timing": "layers/frames/mekong_angiang/2026-10-05_timing.png",
+   "timing_stats": {
+    "on_time_ha": 18118,
+    "early_ha": 5466,
+    "late_ha": 0,
+    "before_data_ha": 82,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 12791
    }
   },
   {
@@ -112,9 +165,18 @@
    "radar": "layers/frames/mekong_angiang/2026-10-17_radar.jpg",
    "stage": "layers/frames/mekong_angiang/2026-10-17_stage.png",
    "stats": {
-    "freshly_planted_ha": 12083,
-    "growing_ha": 3744,
-    "ready_for_harvest_ha": 3796
+    "freshly_planted_ha": 11259,
+    "growing_ha": 1718,
+    "ready_for_harvest_ha": 593
+   },
+   "timing": "layers/frames/mekong_angiang/2026-10-17_timing.png",
+   "timing_stats": {
+    "on_time_ha": 13588,
+    "early_ha": 5514,
+    "late_ha": 3561,
+    "before_data_ha": 82,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 14199
    }
   },
   {
@@ -123,9 +185,18 @@
    "radar": "layers/frames/mekong_angiang/2026-10-29_radar.jpg",
    "stage": "layers/frames/mekong_angiang/2026-10-29_stage.png",
    "stats": {
-    "freshly_planted_ha": 7099,
-    "growing_ha": 18373,
-    "ready_for_harvest_ha": 2041
+    "freshly_planted_ha": 5219,
+    "growing_ha": 18200,
+    "ready_for_harvest_ha": 175
+   },
+   "timing": "layers/frames/mekong_angiang/2026-10-29_timing.png",
+   "timing_stats": {
+    "on_time_ha": 13677,
+    "early_ha": 5521,
+    "late_ha": 11530,
+    "before_data_ha": 82,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 8955
    }
   }
  ],
@@ -143,5 +214,22 @@
   34
  ],
  "confidence": "doubtful",
- "confidence_note": "Radar shows a crop still growing where the calendar expects one near harvest. Needs field checking."
+ "confidence_note": "Radar shows a crop still growing where the calendar expects one near harvest. Needs field checking.",
+ "window": {
+  "season": "Thu Dong (Autumn-Winter) 2026",
+  "start": "2026-07-10",
+  "end": "2026-09-10",
+  "source": "So Nong nghiep va Moi truong (DAE) An Giang, provincial sowing calendar, reported by Bo NN&MT (MAE) news",
+  "url": "https://mae.gov.vn/xuong-giong-lua-thu-dong-dut-diem-tung-tieu-vung-trong-57-ngay-22441.htm",
+  "specific_2026": true,
+  "note": "Confidence HIGH for the province-wide frame of 10 Jul-10 Sep 2026, which has two concentrated 'ne ray' (planthopper-escape) sowing waves. Reports put the waves at about 20-30 Jul (low-lying diked areas) and 20-30 Aug (remaining areas), but the 20-30 Jul wave is only from a search summary and is unverified. Planned rice area is 247,700 ha. This is the crop sown in Jun-Nov. Dong Xuan 2026-27 sowing is 1 Nov-31 Dec 2026, in two waves (1-30 Nov, 1-31 Dec), per DAE An Giang via VietnamPlus (https://www.vietnamplus.vn/an-giang-lu-dau-nguon-song-mekong-giam-dan-thuan-loi-san-xuat-vu-dong-xuan-post1143213.vnp). Only its first days fall in the data window. Note that An Giang merged with Kien Giang in 2025, and U Minh Thuong sows Dong Xuan earlier (5 Oct-15 Nov). Use the Thu Dong window for the Jun-Nov data."
+ },
+ "timing_stats": {
+  "on_time_ha": 13677,
+  "early_ha": 5521,
+  "late_ha": 11530,
+  "before_data_ha": 82,
+  "not_yet_planted_ha": 0,
+  "no_planting_window_closed_ha": 8955
+ }
 }

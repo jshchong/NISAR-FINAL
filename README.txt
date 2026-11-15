@@ -1,6 +1,9 @@
 NISAR Rice Globe (local version, full satellite imagery)
 
-HOW TO RUN (Windows)
+HOW TO PUT ONLINE (GitHub Pages)
+  Upload everything in this folder (index.html at the top level) to a public repo, then Settings > Pages > main / (root).
+
+HOW TO RUN LOCALLY (Windows)
 1. Unzip, then open PowerShell in this "globe" folder
    (Windows 11: right-click an empty spot in the folder > Open in Terminal).
 2. Run:   python -m http.server        (or: py -m http.server)
@@ -10,11 +13,13 @@ HOW TO RUN (Windows)
 WHAT YOU SEE
 - Layer 1: satellite globe (Esri World Imagery) with city/town labels.
 - Layer 2: NISAR L-band rice growth stage for 14 ASEAN rice hubs (27 x 27 km each, 30 m pixels).
-  Red = freshly planted, Orange = growing, Green = ready for harvest, Transparent = not rice / harvested / fallow.
+  Blue = flooded / freshly planted, Yellow = growing, Green = ready for harvest, Transparent = not rice / harvested / fallow.
 - Timeline (bottom): steps through NISAR 12-day cycles (late Jun - early Nov 2026). Play/pause, prev/next, Latest.
   "Growth stage" mode = stage estimated using only images up to that date (from ~August).
+  "Planting timing" mode = was each field planted inside its region's recommended window (official/typical crop calendar)?
+    Faint grey = on time, violet = early, red = late, grey stripes = not yet planted (window open), red stripes = no planting (window closed).
   "Radar" mode = the raw false-colour radar image (R=HH, G=HV, B=HH).
-- Confidence badge per region: whether its stage mix matches the local crop calendar.
+- "Calendar check" badge per region: whether its stage mix fits the local crop calendar. A manual plausibility check, not a measured accuracy.
 
 CAVEATS
 First estimates; not field-validated. Stage timing +/- 2-3 weeks. The rice test does not yet require a

@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/java_indramayu/2026-06-20_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-02",
    "cycle": 24,
    "radar": "layers/frames/java_indramayu/2026-07-02_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-14",
    "cycle": 25,
    "radar": "layers/frames/java_indramayu/2026-07-14_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-26",
    "cycle": 26,
    "radar": "layers/frames/java_indramayu/2026-07-26_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-19",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/java_indramayu/2026-08-19_radar.jpg",
    "stage": "layers/frames/java_indramayu/2026-08-19_stage.png",
    "stats": {
-    "freshly_planted_ha": 12938,
-    "growing_ha": 4636,
+    "freshly_planted_ha": 9124,
+    "growing_ha": 2588,
     "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/java_indramayu/2026-08-19_timing.png",
+   "timing_stats": {
+    "on_time_ha": 0,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 25813,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/java_indramayu/2026-08-31_radar.jpg",
    "stage": "layers/frames/java_indramayu/2026-08-31_stage.png",
    "stats": {
-    "freshly_planted_ha": 22786,
-    "growing_ha": 4266,
-    "ready_for_harvest_ha": 420
+    "freshly_planted_ha": 18668,
+    "growing_ha": 2506,
+    "ready_for_harvest_ha": 8
+   },
+   "timing": "layers/frames/java_indramayu/2026-08-31_timing.png",
+   "timing_stats": {
+    "on_time_ha": 0,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 33953,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -79,9 +105,18 @@
    "radar": "layers/frames/java_indramayu/2026-09-12_radar.jpg",
    "stage": "layers/frames/java_indramayu/2026-09-12_stage.png",
    "stats": {
-    "freshly_planted_ha": 17826,
-    "growing_ha": 12444,
-    "ready_for_harvest_ha": 533
+    "freshly_planted_ha": 14929,
+    "growing_ha": 9847,
+    "ready_for_harvest_ha": 17
+   },
+   "timing": "layers/frames/java_indramayu/2026-09-12_timing.png",
+   "timing_stats": {
+    "on_time_ha": 0,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 36893,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -90,9 +125,18 @@
    "radar": "layers/frames/java_indramayu/2026-09-24_radar.jpg",
    "stage": "layers/frames/java_indramayu/2026-09-24_stage.png",
    "stats": {
-    "freshly_planted_ha": 7963,
-    "growing_ha": 28495,
-    "ready_for_harvest_ha": 880
+    "freshly_planted_ha": 4203,
+    "growing_ha": 26626,
+    "ready_for_harvest_ha": 75
+   },
+   "timing": "layers/frames/java_indramayu/2026-09-24_timing.png",
+   "timing_stats": {
+    "on_time_ha": 0,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 40938,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -101,9 +145,18 @@
    "radar": "layers/frames/java_indramayu/2026-10-06_radar.jpg",
    "stage": "layers/frames/java_indramayu/2026-10-06_stage.png",
    "stats": {
-    "freshly_planted_ha": 246,
-    "growing_ha": 29227,
-    "ready_for_harvest_ha": 2855
+    "freshly_planted_ha": 86,
+    "growing_ha": 27331,
+    "ready_for_harvest_ha": 1112
+   },
+   "timing": "layers/frames/java_indramayu/2026-10-06_timing.png",
+   "timing_stats": {
+    "on_time_ha": 246,
+    "early_ha": 1887,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 37204,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -112,9 +165,18 @@
    "radar": "layers/frames/java_indramayu/2026-10-18_radar.jpg",
    "stage": "layers/frames/java_indramayu/2026-10-18_stage.png",
    "stats": {
-    "freshly_planted_ha": 316,
-    "growing_ha": 32453,
-    "ready_for_harvest_ha": 2805
+    "freshly_planted_ha": 79,
+    "growing_ha": 30010,
+    "ready_for_harvest_ha": 1345
+   },
+   "timing": "layers/frames/java_indramayu/2026-10-18_timing.png",
+   "timing_stats": {
+    "on_time_ha": 3235,
+    "early_ha": 2916,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 35281,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -123,9 +185,18 @@
    "radar": "layers/frames/java_indramayu/2026-10-30_radar.jpg",
    "stage": "layers/frames/java_indramayu/2026-10-30_stage.png",
    "stats": {
-    "freshly_planted_ha": 4998,
-    "growing_ha": 27742,
-    "ready_for_harvest_ha": 5798
+    "freshly_planted_ha": 2658,
+    "growing_ha": 27508,
+    "ready_for_harvest_ha": 3171
+   },
+   "timing": "layers/frames/java_indramayu/2026-10-30_timing.png",
+   "timing_stats": {
+    "on_time_ha": 7017,
+    "early_ha": 2618,
+    "late_ha": 0,
+    "before_data_ha": 84,
+    "not_yet_planted_ha": 33731,
+    "no_planting_window_closed_ha": 0
    }
   }
  ],
@@ -143,5 +214,22 @@
   34
  ],
  "confidence": "partial",
- "confidence_note": "Plausible mix; coastal fish ponds were filtered out but some may remain."
+ "confidence_note": "Plausible mix; coastal fish ponds were filtered out but some may remain.",
+ "window": {
+  "season": "MT I / musim rendeng 2026/27",
+  "start": "2026-10-01",
+  "end": "2026-12-31",
+  "source": "Pemkab Indramayu rendeng target and RTTG via ANTARA Jabar (2024/25 season started 1 Dec 2024); national Oct-Mar season framing",
+  "url": "https://jabar.antaranews.com/berita/552321/indramayu-menargetkan-107906-hektare-luas-tanam-di-musim-rendeng",
+  "specific_2026": false,
+  "note": "Confidence LOW. Month-only window. Indramayu is downstream in the Jatiluhur/PJT II system and its golongan start late. The 2024/25 rendeng officially began 1 Dec 2024, and Bulog reported further slippage in Jan 2026 from golongan changes. Most MT I planting is therefore likely AFTER the data window. Within Jun-Nov 2026 the visible crop is gadu (MT II), which had drought stress: 10,673 ha threatened with puso in Jul 2026 (https://en.republika.co.id/berita/tik5k3415/10673-hectares-of-rice-crops-in-indramayu-threatened-with-crop-failure-due-to-drought). Consider judging Indramayu against gadu or late planting rather than the rendeng onset."
+ },
+ "timing_stats": {
+  "on_time_ha": 7017,
+  "early_ha": 2618,
+  "late_ha": 0,
+  "before_data_ha": 84,
+  "not_yet_planted_ha": 33731,
+  "no_planting_window_closed_ha": 0
+ }
 }

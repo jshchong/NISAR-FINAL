@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/cplains_suphanburi/2026-06-21_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-03",
    "cycle": 24,
    "radar": "layers/frames/cplains_suphanburi/2026-07-03_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-15",
    "cycle": 25,
    "radar": "layers/frames/cplains_suphanburi/2026-07-15_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-20",
    "cycle": 28,
    "radar": "layers/frames/cplains_suphanburi/2026-08-20_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-09-01",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/cplains_suphanburi/2026-09-01_radar.jpg",
    "stage": "layers/frames/cplains_suphanburi/2026-09-01_stage.png",
    "stats": {
-    "freshly_planted_ha": 19167,
-    "growing_ha": 1822,
-    "ready_for_harvest_ha": 17
+    "freshly_planted_ha": 18468,
+    "growing_ha": 607,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/cplains_suphanburi/2026-09-01_timing.png",
+   "timing_stats": {
+    "on_time_ha": 21954,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 3933,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/cplains_suphanburi/2026-09-13_radar.jpg",
    "stage": "layers/frames/cplains_suphanburi/2026-09-13_stage.png",
    "stats": {
-    "freshly_planted_ha": 7566,
-    "growing_ha": 15027,
-    "ready_for_harvest_ha": 183
+    "freshly_planted_ha": 4081,
+    "growing_ha": 14341,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/cplains_suphanburi/2026-09-13_timing.png",
+   "timing_stats": {
+    "on_time_ha": 25925,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 4301
    }
   },
   {
@@ -79,9 +105,18 @@
    "radar": "layers/frames/cplains_suphanburi/2026-09-25_radar.jpg",
    "stage": "layers/frames/cplains_suphanburi/2026-09-25_stage.png",
    "stats": {
-    "freshly_planted_ha": 849,
-    "growing_ha": 6578,
-    "ready_for_harvest_ha": 484
+    "freshly_planted_ha": 93,
+    "growing_ha": 2722,
+    "ready_for_harvest_ha": 25
+   },
+   "timing": "layers/frames/cplains_suphanburi/2026-09-25_timing.png",
+   "timing_stats": {
+    "on_time_ha": 26365,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 6420
    }
   },
   {
@@ -91,8 +126,17 @@
    "stage": "layers/frames/cplains_suphanburi/2026-10-07_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 6756,
-    "ready_for_harvest_ha": 767
+    "growing_ha": 2775,
+    "ready_for_harvest_ha": 13
+   },
+   "timing": "layers/frames/cplains_suphanburi/2026-10-07_timing.png",
+   "timing_stats": {
+    "on_time_ha": 26442,
+    "early_ha": 0,
+    "late_ha": 1549,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 6535
    }
   },
   {
@@ -102,8 +146,17 @@
    "stage": "layers/frames/cplains_suphanburi/2026-10-19_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 6494,
-    "ready_for_harvest_ha": 822
+    "growing_ha": 2982,
+    "ready_for_harvest_ha": 33
+   },
+   "timing": "layers/frames/cplains_suphanburi/2026-10-19_timing.png",
+   "timing_stats": {
+    "on_time_ha": 27210,
+    "early_ha": 0,
+    "late_ha": 2518,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 7740
    }
   },
   {
@@ -113,8 +166,17 @@
    "stage": "layers/frames/cplains_suphanburi/2026-10-31_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 11645,
-    "ready_for_harvest_ha": 1709
+    "growing_ha": 8027,
+    "ready_for_harvest_ha": 111
+   },
+   "timing": "layers/frames/cplains_suphanburi/2026-10-31_timing.png",
+   "timing_stats": {
+    "on_time_ha": 27330,
+    "early_ha": 0,
+    "late_ha": 6896,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 5839
    }
   }
  ],
@@ -131,5 +193,22 @@
   34
  ],
  "confidence": "doubtful",
- "confidence_note": "Many fields flooded from September (likely flood-retention areas); growing area rests on one pass."
+ "confidence_note": "Many fields flooded from September (likely flood-retention areas); growing area rests on one pass.",
+ "window": {
+  "season": "Wet-season (na pi) 2026 irrigated crop, plus start of 2026/27 off-season (na prang) from ~Nov",
+  "start": "2026-05-01",
+  "end": "2026-08-31",
+  "source": "FAO GIEWS Country Brief Thailand (national main crop window); RID SWOC 2569 wet-season water allocation (1 Jul-31 Dec 2026) for context",
+  "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=THA",
+  "specific_2026": false,
+  "note": "Confidence LOW. No Suphan Buri or RID Chao Phraya 2569 planting-start date found. In recent years RID has asked lowland retention areas in the Chao Phraya basin to plant early (~Apr) so they can harvest before flood storage, but this was not confirmed for 2026. Suphan Buri irrigated paddy is highly asynchronous (2-3 crops/yr), so expect planting throughout Jun-Nov rather than one pulse. Check the OAE Suphan Buri province profile (2569 wet-season irrigated area forecast 1,242,157 rai). 2026 was an El Nino year with a dry monsoon."
+ },
+ "timing_stats": {
+  "on_time_ha": 27330,
+  "early_ha": 0,
+  "late_ha": 6896,
+  "before_data_ha": 163,
+  "not_yet_planted_ha": 0,
+  "no_planting_window_closed_ha": 5839
+ }
 }

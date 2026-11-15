@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/isan_surin/2026-06-19_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-01",
    "cycle": 24,
    "radar": "layers/frames/isan_surin/2026-07-01_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-13",
    "cycle": 25,
    "radar": "layers/frames/isan_surin/2026-07-13_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-25",
    "cycle": 26,
    "radar": "layers/frames/isan_surin/2026-07-25_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-18",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/isan_surin/2026-08-18_radar.jpg",
    "stage": "layers/frames/isan_surin/2026-08-18_stage.png",
    "stats": {
-    "freshly_planted_ha": 20,
-    "growing_ha": 11431,
-    "ready_for_harvest_ha": 197
+    "freshly_planted_ha": 1,
+    "growing_ha": 5607,
+    "ready_for_harvest_ha": 6
+   },
+   "timing": "layers/frames/isan_surin/2026-08-18_timing.png",
+   "timing_stats": {
+    "on_time_ha": 11595,
+    "early_ha": 7,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 284,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/isan_surin/2026-08-30_radar.jpg",
    "stage": "layers/frames/isan_surin/2026-08-30_stage.png",
    "stats": {
-    "freshly_planted_ha": 33,
-    "growing_ha": 8130,
-    "ready_for_harvest_ha": 1680
+    "freshly_planted_ha": 1,
+    "growing_ha": 3124,
+    "ready_for_harvest_ha": 104
+   },
+   "timing": "layers/frames/isan_surin/2026-08-30_timing.png",
+   "timing_stats": {
+    "on_time_ha": 9822,
+    "early_ha": 19,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 317,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -80,8 +106,17 @@
    "stage": "layers/frames/isan_surin/2026-09-11_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 8251,
-    "ready_for_harvest_ha": 1590
+    "growing_ha": 3454,
+    "ready_for_harvest_ha": 91
+   },
+   "timing": "layers/frames/isan_surin/2026-09-11_timing.png",
+   "timing_stats": {
+    "on_time_ha": 10302,
+    "early_ha": 33,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 405,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -91,8 +126,17 @@
    "stage": "layers/frames/isan_surin/2026-09-23_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 8449,
-    "ready_for_harvest_ha": 5790
+    "growing_ha": 3184,
+    "ready_for_harvest_ha": 2279
+   },
+   "timing": "layers/frames/isan_surin/2026-09-23_timing.png",
+   "timing_stats": {
+    "on_time_ha": 14747,
+    "early_ha": 44,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 464
    }
   },
   {
@@ -102,8 +146,17 @@
    "stage": "layers/frames/isan_surin/2026-10-05_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 8829,
-    "ready_for_harvest_ha": 6772
+    "growing_ha": 3963,
+    "ready_for_harvest_ha": 3020
+   },
+   "timing": "layers/frames/isan_surin/2026-10-05_timing.png",
+   "timing_stats": {
+    "on_time_ha": 16319,
+    "early_ha": 61,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 554
    }
   },
   {
@@ -113,8 +166,17 @@
    "stage": "layers/frames/isan_surin/2026-10-17_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 14317,
-    "ready_for_harvest_ha": 7016
+    "growing_ha": 10508,
+    "ready_for_harvest_ha": 3151
+   },
+   "timing": "layers/frames/isan_surin/2026-10-17_timing.png",
+   "timing_stats": {
+    "on_time_ha": 21646,
+    "early_ha": 66,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 481
    }
   },
   {
@@ -124,8 +186,17 @@
    "stage": "layers/frames/isan_surin/2026-10-29_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 23714,
-    "ready_for_harvest_ha": 6597
+    "growing_ha": 23771,
+    "ready_for_harvest_ha": 2793
+   },
+   "timing": "layers/frames/isan_surin/2026-10-29_timing.png",
+   "timing_stats": {
+    "on_time_ha": 30417,
+    "early_ha": 72,
+    "late_ha": 0,
+    "before_data_ha": 163,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 355
    }
   }
  ],
@@ -143,5 +214,22 @@
   34
  ],
  "confidence": "good",
- "confidence_note": "Rain-fed crop growing to ready in late October; matches the Isan calendar."
+ "confidence_note": "Rain-fed crop growing to ready in late October; matches the Isan calendar.",
+ "window": {
+  "season": "Main (na pi) wet-season crop 2026/27, rain-fed jasmine",
+  "start": "2026-05-01",
+  "end": "2026-08-31",
+  "source": "FAO GIEWS Country Brief Thailand",
+  "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=THA",
+  "specific_2026": false,
+  "note": "Confidence MEDIUM. Same as Roi Et: month-only national main-crop window, with transplanting peaking Jul-Aug. 2026 was an El Nino year with a below-normal monsoon."
+ },
+ "timing_stats": {
+  "on_time_ha": 30417,
+  "early_ha": 72,
+  "late_ha": 0,
+  "before_data_ha": 163,
+  "not_yet_planted_ha": 0,
+  "no_planting_window_closed_ha": 355
+ }
 }

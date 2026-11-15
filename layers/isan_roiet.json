@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/isan_roiet/2026-06-19_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-01",
    "cycle": 24,
    "radar": "layers/frames/isan_roiet/2026-07-01_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-13",
    "cycle": 25,
    "radar": "layers/frames/isan_roiet/2026-07-13_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-25",
    "cycle": 26,
    "radar": "layers/frames/isan_roiet/2026-07-25_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-18",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/isan_roiet/2026-08-18_radar.jpg",
    "stage": "layers/frames/isan_roiet/2026-08-18_stage.png",
    "stats": {
-    "freshly_planted_ha": 88,
-    "growing_ha": 6027,
-    "ready_for_harvest_ha": 146
+    "freshly_planted_ha": 11,
+    "growing_ha": 1677,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/isan_roiet/2026-08-18_timing.png",
+   "timing_stats": {
+    "on_time_ha": 6188,
+    "early_ha": 41,
+    "late_ha": 0,
+    "before_data_ha": 162,
+    "not_yet_planted_ha": 657,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/isan_roiet/2026-08-30_radar.jpg",
    "stage": "layers/frames/isan_roiet/2026-08-30_stage.png",
    "stats": {
-    "freshly_planted_ha": 162,
-    "growing_ha": 6183,
-    "ready_for_harvest_ha": 791
+    "freshly_planted_ha": 29,
+    "growing_ha": 1700,
+    "ready_for_harvest_ha": 24
+   },
+   "timing": "layers/frames/isan_roiet/2026-08-30_timing.png",
+   "timing_stats": {
+    "on_time_ha": 7108,
+    "early_ha": 93,
+    "late_ha": 0,
+    "before_data_ha": 162,
+    "not_yet_planted_ha": 678,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -80,8 +106,17 @@
    "stage": "layers/frames/isan_roiet/2026-09-11_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 6621,
-    "ready_for_harvest_ha": 756
+    "growing_ha": 1935,
+    "ready_for_harvest_ha": 18
+   },
+   "timing": "layers/frames/isan_roiet/2026-09-11_timing.png",
+   "timing_stats": {
+    "on_time_ha": 7829,
+    "early_ha": 157,
+    "late_ha": 0,
+    "before_data_ha": 162,
+    "not_yet_planted_ha": 918,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -91,8 +126,17 @@
    "stage": "layers/frames/isan_roiet/2026-09-23_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 7380,
-    "ready_for_harvest_ha": 3172
+    "growing_ha": 2342,
+    "ready_for_harvest_ha": 597
+   },
+   "timing": "layers/frames/isan_roiet/2026-09-23_timing.png",
+   "timing_stats": {
+    "on_time_ha": 11079,
+    "early_ha": 200,
+    "late_ha": 0,
+    "before_data_ha": 162,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 989
    }
   },
   {
@@ -102,8 +146,17 @@
    "stage": "layers/frames/isan_roiet/2026-10-05_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 12813,
-    "ready_for_harvest_ha": 4100
+    "growing_ha": 7707,
+    "ready_for_harvest_ha": 1061
+   },
+   "timing": "layers/frames/isan_roiet/2026-10-05_timing.png",
+   "timing_stats": {
+    "on_time_ha": 17048,
+    "early_ha": 202,
+    "late_ha": 0,
+    "before_data_ha": 162,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 838
    }
   },
   {
@@ -113,8 +166,17 @@
    "stage": "layers/frames/isan_roiet/2026-10-17_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 20949,
-    "ready_for_harvest_ha": 4813
+    "growing_ha": 19186,
+    "ready_for_harvest_ha": 1520
+   },
+   "timing": "layers/frames/isan_roiet/2026-10-17_timing.png",
+   "timing_stats": {
+    "on_time_ha": 25620,
+    "early_ha": 210,
+    "late_ha": 0,
+    "before_data_ha": 162,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 584
    }
   },
   {
@@ -124,8 +186,17 @@
    "stage": "layers/frames/isan_roiet/2026-10-29_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 22427,
-    "ready_for_harvest_ha": 7127
+    "growing_ha": 21872,
+    "ready_for_harvest_ha": 3458
+   },
+   "timing": "layers/frames/isan_roiet/2026-10-29_timing.png",
+   "timing_stats": {
+    "on_time_ha": 29538,
+    "early_ha": 216,
+    "late_ha": 0,
+    "before_data_ha": 162,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 491
    }
   }
  ],
@@ -143,5 +214,22 @@
   34
  ],
  "confidence": "good",
- "confidence_note": "Rain-fed crop growing to ready in late October; matches the Isan calendar."
+ "confidence_note": "Rain-fed crop growing to ready in late October; matches the Isan calendar.",
+ "window": {
+  "season": "Main (na pi) wet-season crop 2026/27, rain-fed jasmine (KDML105/RD15)",
+  "start": "2026-05-01",
+  "end": "2026-08-31",
+  "source": "FAO GIEWS Country Brief Thailand (main crop planted ~May-Aug with the SW monsoon; planting finalises by end-Aug)",
+  "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=THA",
+  "specific_2026": false,
+  "note": "Confidence MEDIUM (standard national calendar). Month-only window. No 2569 (2026) Rice Department/OAE NE-specific recommendation found. KDML105 is photoperiod-sensitive: transplanting in Isan is concentrated Jul-Aug, and broadcasting starts earlier (May-Jun). 2026 rainfall was below normal (El Nino, TMD forecast ~10% below average), so expect late planting. Tung Kula Ronghai covers Roi Et/Surin."
+ },
+ "timing_stats": {
+  "on_time_ha": 29538,
+  "early_ha": 216,
+  "late_ha": 0,
+  "before_data_ha": 162,
+  "not_yet_planted_ha": 0,
+  "no_planting_window_closed_ha": 491
+ }
 }

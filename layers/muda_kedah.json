@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/muda_kedah/2026-06-21_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-03",
    "cycle": 24,
    "radar": "layers/frames/muda_kedah/2026-07-03_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-20",
    "cycle": 28,
    "radar": "layers/frames/muda_kedah/2026-08-20_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-09-01",
    "cycle": 29,
    "radar": "layers/frames/muda_kedah/2026-09-01_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-09-13",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/muda_kedah/2026-09-13_radar.jpg",
    "stage": "layers/frames/muda_kedah/2026-09-13_stage.png",
    "stats": {
-    "freshly_planted_ha": 8,
-    "growing_ha": 14957,
-    "ready_for_harvest_ha": 16
+    "freshly_planted_ha": 0,
+    "growing_ha": 13228,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/muda_kedah/2026-09-13_timing.png",
+   "timing_stats": {
+    "on_time_ha": 8,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 83,
+    "not_yet_planted_ha": 15278,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/muda_kedah/2026-09-25_radar.jpg",
    "stage": "layers/frames/muda_kedah/2026-09-25_stage.png",
    "stats": {
-    "freshly_planted_ha": 27,
-    "growing_ha": 20790,
-    "ready_for_harvest_ha": 30
+    "freshly_planted_ha": 7,
+    "growing_ha": 20471,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/muda_kedah/2026-09-25_timing.png",
+   "timing_stats": {
+    "on_time_ha": 27,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 83,
+    "not_yet_planted_ha": 21125,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -79,9 +105,18 @@
    "radar": "layers/frames/muda_kedah/2026-10-07_radar.jpg",
    "stage": "layers/frames/muda_kedah/2026-10-07_stage.png",
    "stats": {
-    "freshly_planted_ha": 6506,
-    "growing_ha": 16580,
-    "ready_for_harvest_ha": 3130
+    "freshly_planted_ha": 4081,
+    "growing_ha": 17906,
+    "ready_for_harvest_ha": 1309
+   },
+   "timing": "layers/frames/muda_kedah/2026-10-07_timing.png",
+   "timing_stats": {
+    "on_time_ha": 386,
+    "early_ha": 6116,
+    "late_ha": 0,
+    "before_data_ha": 83,
+    "not_yet_planted_ha": 20466,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -90,9 +125,18 @@
    "radar": "layers/frames/muda_kedah/2026-10-19_radar.jpg",
    "stage": "layers/frames/muda_kedah/2026-10-19_stage.png",
    "stats": {
-    "freshly_planted_ha": 11140,
-    "growing_ha": 8860,
-    "ready_for_harvest_ha": 5622
+    "freshly_planted_ha": 10725,
+    "growing_ha": 7519,
+    "ready_for_harvest_ha": 3913
+   },
+   "timing": "layers/frames/muda_kedah/2026-10-19_timing.png",
+   "timing_stats": {
+    "on_time_ha": 6509,
+    "early_ha": 4623,
+    "late_ha": 0,
+    "before_data_ha": 83,
+    "not_yet_planted_ha": 17447,
+    "no_planting_window_closed_ha": 0
    }
   },
   {
@@ -101,9 +145,18 @@
    "radar": "layers/frames/muda_kedah/2026-10-31_radar.jpg",
    "stage": "layers/frames/muda_kedah/2026-10-31_stage.png",
    "stats": {
-    "freshly_planted_ha": 13387,
-    "growing_ha": 5889,
-    "ready_for_harvest_ha": 4360
+    "freshly_planted_ha": 12828,
+    "growing_ha": 5032,
+    "ready_for_harvest_ha": 2969
+   },
+   "timing": "layers/frames/muda_kedah/2026-10-31_timing.png",
+   "timing_stats": {
+    "on_time_ha": 12517,
+    "early_ha": 4479,
+    "late_ha": 0,
+    "before_data_ha": 83,
+    "not_yet_planted_ha": 11915,
+    "no_planting_window_closed_ha": 0
    }
   }
  ],
@@ -119,5 +172,22 @@
   34
  ],
  "confidence": "good",
- "confidence_note": "Season 1 harvested and fields re-flooded for Season 2 sowing, as the MADA calendar expects."
+ "confidence_note": "Season 1 harvested and fields re-flooded for Season 2 sowing, as the MADA calendar expects.",
+ "window": {
+  "season": "MADA Season 2/2026 (Musim 2, 2026/27)",
+  "start": "2026-09-23",
+  "end": "2026-11-24",
+  "source": "MADA Mesyuarat Jawatankuasa Bekalan Air dan Penanaman Padi (MJBAPP), 14 Sep 2026, reported by BERNAMA",
+  "url": "https://www.bernama.com/bm/am/news.php?id=2608389",
+  "specific_2026": true,
+  "note": "Confidence MEDIUM-HIGH. These dates are from news (BERNAMA, Harian Metro 18 Sep 2026) quoting the MADA committee, not the MADA notice itself. The schedule covers 99,489 ha, with sowing (menabur) by phase: Phase I 23 Sep-4 Nov, Phase II 3 Oct-14 Nov, Phase III 13 Oct-24 Nov 2026. Dam storage was only 35.76% and irrigation depended on rainfall, so slippage is possible. Season 2 fits Jun-Nov 2026 data best, although the window tail extends past early Nov. Season 1/2026 was dry-seeded with sowing deadlines of 15 May, 29 May and 12 Jun, mostly before the data window. In Jun-Nov 2026 data, Season 1 shows up as growth and harvest (Aug-Oct), not planting."
+ },
+ "timing_stats": {
+  "on_time_ha": 12517,
+  "early_ha": 4479,
+  "late_ha": 0,
+  "before_data_ha": 83,
+  "not_yet_planted_ha": 11915,
+  "no_planting_window_closed_ha": 0
+ }
 }

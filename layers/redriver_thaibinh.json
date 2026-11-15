@@ -28,28 +28,36 @@
    "cycle": 23,
    "radar": "layers/frames/redriver_thaibinh/2026-06-17_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-06-29",
    "cycle": 24,
    "radar": "layers/frames/redriver_thaibinh/2026-06-29_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-11",
    "cycle": 25,
    "radar": "layers/frames/redriver_thaibinh/2026-07-11_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-07-23",
    "cycle": 26,
    "radar": "layers/frames/redriver_thaibinh/2026-07-23_radar.jpg",
    "stage": null,
-   "stats": null
+   "stats": null,
+   "timing": null,
+   "timing_stats": null
   },
   {
    "date": "2026-08-16",
@@ -57,9 +65,18 @@
    "radar": "layers/frames/redriver_thaibinh/2026-08-16_radar.jpg",
    "stage": "layers/frames/redriver_thaibinh/2026-08-16_stage.png",
    "stats": {
-    "freshly_planted_ha": 7411,
-    "growing_ha": 719,
-    "ready_for_harvest_ha": 40
+    "freshly_planted_ha": 4887,
+    "growing_ha": 217,
+    "ready_for_harvest_ha": 0
+   },
+   "timing": "layers/frames/redriver_thaibinh/2026-08-16_timing.png",
+   "timing_stats": {
+    "on_time_ha": 8287,
+    "early_ha": 0,
+    "late_ha": 0,
+    "before_data_ha": 158,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 3064
    }
   },
   {
@@ -68,9 +85,18 @@
    "radar": "layers/frames/redriver_thaibinh/2026-08-28_radar.jpg",
    "stage": "layers/frames/redriver_thaibinh/2026-08-28_stage.png",
    "stats": {
-    "freshly_planted_ha": 4179,
-    "growing_ha": 7041,
-    "ready_for_harvest_ha": 107
+    "freshly_planted_ha": 2553,
+    "growing_ha": 3873,
+    "ready_for_harvest_ha": 2
+   },
+   "timing": "layers/frames/redriver_thaibinh/2026-08-28_timing.png",
+   "timing_stats": {
+    "on_time_ha": 5275,
+    "early_ha": 0,
+    "late_ha": 6476,
+    "before_data_ha": 158,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 2521
    }
   },
   {
@@ -80,8 +106,17 @@
    "stage": "layers/frames/redriver_thaibinh/2026-09-09_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 17971,
-    "ready_for_harvest_ha": 293
+    "growing_ha": 16692,
+    "ready_for_harvest_ha": 24
+   },
+   "timing": "layers/frames/redriver_thaibinh/2026-09-09_timing.png",
+   "timing_stats": {
+    "on_time_ha": 5193,
+    "early_ha": 0,
+    "late_ha": 13385,
+    "before_data_ha": 158,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 1683
    }
   },
   {
@@ -91,8 +126,17 @@
    "stage": "layers/frames/redriver_thaibinh/2026-09-21_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 23681,
-    "ready_for_harvest_ha": 486
+    "growing_ha": 23817,
+    "ready_for_harvest_ha": 62
+   },
+   "timing": "layers/frames/redriver_thaibinh/2026-09-21_timing.png",
+   "timing_stats": {
+    "on_time_ha": 5260,
+    "early_ha": 0,
+    "late_ha": 19228,
+    "before_data_ha": 158,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 1024
    }
   },
   {
@@ -102,8 +146,17 @@
    "stage": "layers/frames/redriver_thaibinh/2026-10-03_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 23601,
-    "ready_for_harvest_ha": 556
+    "growing_ha": 23744,
+    "ready_for_harvest_ha": 72
+   },
+   "timing": "layers/frames/redriver_thaibinh/2026-10-03_timing.png",
+   "timing_stats": {
+    "on_time_ha": 5333,
+    "early_ha": 0,
+    "late_ha": 19373,
+    "before_data_ha": 158,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 1201
    }
   },
   {
@@ -113,8 +166,17 @@
    "stage": "layers/frames/redriver_thaibinh/2026-10-15_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 24410,
-    "ready_for_harvest_ha": 3469
+    "growing_ha": 25280,
+    "ready_for_harvest_ha": 1450
+   },
+   "timing": "layers/frames/redriver_thaibinh/2026-10-15_timing.png",
+   "timing_stats": {
+    "on_time_ha": 5309,
+    "early_ha": 0,
+    "late_ha": 22872,
+    "before_data_ha": 158,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 723
    }
   },
   {
@@ -124,8 +186,17 @@
    "stage": "layers/frames/redriver_thaibinh/2026-10-27_stage.png",
    "stats": {
     "freshly_planted_ha": 0,
-    "growing_ha": 16606,
-    "ready_for_harvest_ha": 9067
+    "growing_ha": 16268,
+    "ready_for_harvest_ha": 6891
+   },
+   "timing": "layers/frames/redriver_thaibinh/2026-10-27_timing.png",
+   "timing_stats": {
+    "on_time_ha": 5401,
+    "early_ha": 0,
+    "late_ha": 22668,
+    "before_data_ha": 158,
+    "not_yet_planted_ha": 0,
+    "no_planting_window_closed_ha": 869
    }
   }
  ],
@@ -143,5 +214,22 @@
   34
  ],
  "confidence": "doubtful",
- "confidence_note": "Probably overstates standing crop; harvest was likely under way by late October."
+ "confidence_note": "Probably overstates standing crop; harvest was likely under way by late October.",
+ "window": {
+  "season": "Vu Mua (summer-autumn) 2026",
+  "start": "2026-06-15",
+  "end": "2026-07-20",
+  "source": "PROXY: Hai Phong city and commune 2026 Vu Mua production plans (neighbouring Red River Delta province); no Thai Binh/Hung Yen 2026 plan found",
+  "url": "https://cdn.haiphong.gov.vn/gov-hpg/6844/tintuc/2026/6/khsx-vu-mua-2026-va-vu-dong-2026-2027-xa-ninh-giang..signed639165272881248763.pdf",
+  "specific_2026": true,
+  "note": "Confidence MEDIUM-LOW. The former Thai Binh province merged into Hung Yen on 1 Jul 2025, so look for the Hung Yen So NN&MT 2026 Vu Mua plan. Hai Phong 2026 plans give: short-duration transplanting from 15-30 Jun, main transplanting 5-15 Jul, early/mid crops finished before 15 Jul, late crop 10-20 Jul, and direct seeding 25 Jun-5 Jul. The window here spans 15 Jun-20 Jul. The Vu Mua crop fits the Jun-Nov data (harvest Sep-Oct). The spring crop (Jan-Feb) is outside the window."
+ },
+ "timing_stats": {
+  "on_time_ha": 5401,
+  "early_ha": 0,
+  "late_ha": 22668,
+  "before_data_ha": 158,
+  "not_yet_planted_ha": 0,
+  "no_planting_window_closed_ha": 869
+ }
 }
